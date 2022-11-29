@@ -14,11 +14,6 @@ export class AddCourseComponent {
   courseVenue=""
 
   readValue= () => {
-   console.log(this.courseTitle)
-   console.log(this.courseDescription)
-   console.log(this.courseDate)
-   console.log(this.courseDuration)
-   
    let values=[{
     "name":this.courseTitle,
     "Description":this.courseDescription,
@@ -26,11 +21,5 @@ export class AddCourseComponent {
     "Duration":this.courseDuration,
    }]
    console.log(values)
-
-
-
-
-
-
   }
 }
